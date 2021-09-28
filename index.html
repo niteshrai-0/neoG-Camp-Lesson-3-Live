@@ -1,190 +1,87 @@
 <!DOCTYPE html>
-<!--declaration defines that this document is an HTML5 document-->
 <html lang="en">
-<!--element is the root element of an HTML page
--->
-
-
-<!--Anything will be in head is not useful.-->
-
 <head>
-    <!--element contains meta information about the HTML page-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
-    <!--Page Title : element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)-->
-
-    <!-- Updated link below to conect style.css page -->
-    <link href="styles.css" rel="stylesheet" />
-
-
-
+    <title>home | Adarsh Balika</title>
+    <link href="styles.css" rel="stylesheet"/>
 </head>
-
-<!-- This part is always visible. -->
-
 <body>
-    <!-- element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.-->
-
-
-    <h1>Welcome to Nitesh_Rai's Component Library.</h1>
-    <!--My First Heading : element defines a large heading.-->
-
-
-    <p>I am attending neoG.camp and I want to make a library which would make all my projects look good and consistent.
-    </p>
-    <!--My first paragraph : element defines a paragraph-->
-
-
-    <hr>
-
-    <h2>@typography</h2>
-
-    <h1>This is the biggest heading.</h1>
-    <h2>This is the second biggest.</h2>
-    <p>This is the normal text.This is free flowing and will wrap at the end like a paragraph.</p>
-    <p>This paragraph will have a <strong>bold</strong> text</p>>
-    <small>This is relatively very smaller text.</small>
-
-    <hr>
-
-    <h2>@container</h2>
-
-    <h3>fluid container</h3>
-    <div class="container">This is a fluid container and it will go till the end of the page.</div>
-
-    <h3>center container</h3>
-    <div class="container container-center">This is a centered container and it will go till the specified width.</div>
-
-    <hr>
-
-    <h2>@Links</h2>
-
-    <a class="link link-primary" href="/">Primary Link</a>
-    <!--<a> : anchor tag -->>
-    <a class="link link-secondary" href="/">Secondary Link</a>
-
-
-    <hr>
-
-    <h2>@lists</h2>
-    <h3>unordered list</h3>
-    <p>This list will not have the bullets.</p>>
-
-    <ul class="list-non-bullet">
-        <li>Item One</li>
-        <li>Item Two</li>
-        <li>Item Three</li>
-
-    </ul>
-
-    <h3>unordered inline list</h3>
-
-    <ul class="list-non-bullet">
-        <li class="list-item-inline">Inline Item One</li>
-        <li class="list-item-inline">Inline Item Two</li>
-        <li class="list-item-inline">Inline Item Three</li>
-    </ul>
-
-    <h3> reverse ordered list</h3>
-
-    <ol reversed>
-        <li>milk</li>
-        <li>eggs</li>
-        <li>break</li>
-    </ol>
-
-
-    <hr>
-
-    <h2>@nav</h2>
-
     <nav class="navigation container">
-        <div class="nav-brand">I_Am_A_Brand</div>
+        <div class="nav-brand">Welcome to Nitesh Rai's Portfolio</div>
         <ul class="list-non-bullet nav-pills">
             <li class="list-item-inline">
-                <a class="link link-active" href="/">home</a>
+                <a class="link link-active" href="/">Home</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="/">products</a>
+                <a class="link" href="/">Projects</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="/">about</a>
+                <a class="link" href="/">Blogs</a>
             </li>
         </ul>
 
     </nav>
 
-    <hr>
-
-    <h2>header</h2>
-
     <header class="hero">
-        <img class="hero-img" src="images/hero.svg">
-        <h1 class="hero-heading">Nitesh Rai the <span class="heading-inverted">Full Stack Web Developer</span></h1>
+        <img class="hero-img" src="/images/hero.svg">
+        <h1 class="hero-heading">Nitesh Rai <span class="heading-inverted">The Full Stack Web Developer</span></h1>
 
     </header>
 
-    <hr>
+    <section class="section ow">
+        <div class="container container">
+        <h1>Technologies</h1>
+        <!-- <p>This will have gray background.</p> -->
+        <p>I'm familiar with HTML5,CSS3,Git & GitHub,JavaScript,NodeJS,ReactJS, and Web Hosting.</p>
 
-    <h2>@section</h2>
-    <section class="section">
-        <div class="container container-center">
-            <h1>white section</h1>
+        <a class="link link-primary" href="/">See Technologies</a>
 
-            <!-- section : Different part of a same topic. -->
+        </div>
+    </section>
 
-            <!-- <p>This will have white background.</p> -->
-            <p>A full stack web developer is a person who can develop both client and server software.
+    <section class="section ">
+        <div class="container container">
+        <h1>Projects</h1>
+        <!-- <p>This will have gray background.</p> -->
+        <p>I like to showcase my work and thus, you can see my projects hosted online.</p>
 
-                In addition to mastering HTML and CSS, he/she also knows how to:
-                
-                Program a browser (like using JavaScript, jQuery, Angular, or Vue)
-                Program a server (like using PHP, ASP, Python, or Node)
-                Program a database (like using SQL, SQLite, or MongoDB)</p>
-
+        <a class="link link-primary" href="/">See Projects</a>
 
         </div>
     </section>
 
     <section class="section ow">
         <div class="container container">
-        <h1>off white section</h1>
+        <h1>Blogs</h1>
         <!-- <p>This will have gray background.</p> -->
-        <p>A full stack web developer is a person who can develop both client and server software.
+        <p>I am also working on some technical and non-technical blogs. I would like to document my journey by learning.</p>
 
-            In addition to mastering HTML and CSS, he/she also knows how to:
-            
-            Program a browser (like using JavaScript, jQuery, Angular, or Vue)
-            Program a server (like using PHP, ASP, Python, or Node)
-            Program a database (like using SQL, SQLite, or MongoDB)</p>
+        <a class="link link-primary" href="/">Read Blogs</a>
 
         </div>
     </section>
 
-    <!--  end part of the page. -->
-    <hr> <!-- <hr> : The Thematic Break (Horizontal Rule) element -->
-    <h2>@footer</h2>
     <footer class="footer">
-        <div class="social-links list-non-bullet"> Some small heading inside footer</div>
+        <div class="social-links list-non-bullet"> Connect with me Online at :</div>
         <ul>
             <li class="list-item-inline">
-                <a class = "link" href="/">
-                socialOne
+                <a class = "link" href="https://github.com/niteshrai-0">
+                GitHub
                 </a>
             </li>
 
             <li class="list-item-inline">
-                <a class = "link" href="/">
-                    socialTwo
+                <a class = "link" href="https://www.linkedin.com/in/nitesh-rai-0/">
+                LinkedIn
                 </a>
                 
             </li>
 
             <li class="list-item-inline">
-                <a class = "link" href="/">
-                    socialThree
+                <a class = "link" href="https://twitter.com/nrai00067">
+                Twitter
                 </a>
             </li>
         </ul>
@@ -196,12 +93,5 @@
 
 
 
-    <!-- <div style="height: 30vh;"> -->
-    </div>
-
-
-
-
 </body>
-
 </html>
