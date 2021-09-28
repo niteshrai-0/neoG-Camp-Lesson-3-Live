@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
+
+:root{
+    --primary-color: blue;
+}
 body{
     font-family: 'Montserrat', sans-serif;
 }
@@ -14,3 +18,28 @@ body{
     max-width: 600px;
     margin: auto;
 }
+
+/** links **/
+
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;     /*if given only 2 values, top & bottom will be same i.e. 0.5rem here and right and left will be 1rem. Top -Right-bottom-left*/
+}
+
+.link-primary{     /* . : it is used to access the class written after dot.*/
+    background-color: var(--primary-color);
+    border-radius:0.5rem;
+    color:white;
+
+}
+
+.link-secondary{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var ;
+    (--primary-color);
+
+}
+
+/* look into BEM naming convention for CSS */
+
