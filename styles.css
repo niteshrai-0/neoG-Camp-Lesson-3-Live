@@ -2,11 +2,17 @@
 
 
 :root{
-    --primary-color: blue;
+    --primary-color:#6D28D9;
+    ;
 }
 body{
     font-family: 'Montserrat', sans-serif;
 }
+
+hr{
+    margin: 2rem 0rem; /*if only need to increase top and bottom space.*/
+}
+
 
 /* container */
 .container{
@@ -36,10 +42,21 @@ body{
 .link-secondary{
     color: var(--primary-color);
     border-radius: 0.5rem;
-    border: 1px solid var ;
-    (--primary-color);
+    border: 1px solid var(--primary-color);
 
 }
 
 /* look into BEM naming convention for CSS */
 
+
+
+/* Lists */
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
