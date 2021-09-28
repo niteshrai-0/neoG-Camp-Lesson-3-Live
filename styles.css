@@ -10,7 +10,9 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    margin: 0px;
+    margin: 0px auto;
+    max-width: 85%;
+    width: 100%;
 }
 
 hr {
@@ -26,18 +28,22 @@ hr {
 
 /* container */
 .container {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    /* padding-left: 1rem;
+    padding-right: 1rem; */
+
+    padding: 0rem 1rem;
 }
 
 .container-center {
-    max-width: 600px;
+    max-width: 900px;
+    width:100%;
     margin: auto;
 }
 
 /** links **/
 
 .link {
+    box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
     /*if given only 2 values, top & bottom will be same i.e. 0.5rem here and right and left will be 1rem. Top -Right-bottom-left*/
@@ -45,16 +51,23 @@ hr {
 
 .link-primary {
     /* . : it is used to access the class written after dot.*/
+    max-width: 140px;
+    padding:0.6rem 1.2rem;
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
+    margin: 1rem auto;
+    border-radius: 2rem;
 
 }
 
 .link-secondary {
-    color: var(--primary-color);
-    border-radius: 0.5rem;
+    max-width: 140px;
+    margin: 1rem;
+    padding: 0.6rem 1.2rem;
+    border-radius: 2rem;
     border: 1px solid var(--primary-color);
+    color: var(--primary-color);
 
 }
 
@@ -66,6 +79,7 @@ hr {
 
 .list-non-bullet {
     list-style: none;
+    padding-inline-start: 0px;
 }
 
 .list-item-inline {
@@ -89,9 +103,10 @@ hr {
 
 .navigation .nav-pills {
     text-align: right;
+    margin: 0.6rem 1rem;
 }
 
-.navigation-link {
+.navigation .link {
     color: white;
 }
 
@@ -103,11 +118,13 @@ hr {
 /* header */
 
 .hero {
-    padding: 5rem;
+    padding: 2rem;
+    padding-top: 5rem;
 }
 
 .hero .hero-img {
-    max-width: 350px;
+    max-width: 80%;
+    width: 550px;
     display: block;
     margin: auto;
 
@@ -127,6 +144,9 @@ hr {
 
 .section{
     padding: 2rem;
+    margin: 2rem 0rem;
+    border-radius: 1rem;
+    text-align: center;
 
 }
 
@@ -157,3 +177,49 @@ hr {
     font-weight: bold;
     font-size: large;
 }
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+/* projects */
+
+.showcase-list{
+    /* padding: 2rem; */
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    margin: 3rem auto;
+}
+
+.showcase-list h1{
+    margin: 0.5rem;
+}
+
+/* blogs */
+
+.showcase-blog{
+    padding-bottom: 6rem;
+}
+
+@media (max-width: 900px){
+    body{
+        max-width:95%;
+        width: 100%;
+    }
+
+    .list-item-inline{
+        display: inline;
+        padding: 0rem;
+    }
+    
+    .container-center{
+        width: auto;
+    }
+    
+    .link-primary{
+        display: block;
+    }
+}
+
+
