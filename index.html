@@ -6,6 +6,7 @@
 
 
 <!--Anything will be in head is not useful.-->
+
 <head>
     <!--element contains meta information about the HTML page-->
     <meta charset="UTF-8">
@@ -15,13 +16,14 @@
     <!--Page Title : element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)-->
 
     <!-- Updated link below to conect style.css page -->
-    <link href="styles.css" rel ="stylesheet" />
+    <link href="styles.css" rel="stylesheet" />
 
 
 
 </head>
 
 <!-- This part is always visible. -->
+
 <body>
     <!-- element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.-->
 
@@ -29,8 +31,8 @@
     <h1>Welcome to Nitesh_Rai's Component Library.</h1>
     <!--My First Heading : element defines a large heading.-->
 
-    
-    <p >I am attending neoG.camp and I want to make a library which would make all my projects look good and consistent.
+
+    <p>I am attending neoG.camp and I want to make a library which would make all my projects look good and consistent.
     </p>
     <!--My first paragraph : element defines a paragraph-->
 
@@ -53,7 +55,7 @@
     <div class="container">This is a fluid container and it will go till the end of the page.</div>
 
     <h3>center container</h3>
-    <div class="container container-center" >This is a centered container and it will go till the specified width.</div>
+    <div class="container container-center">This is a centered container and it will go till the specified width.</div>
 
     <hr>
 
@@ -105,10 +107,10 @@
                 <a class="link link-active" href="/">home</a>
             </li>
             <li class="list-item-inline">
-                <a class="link"  href="/">products</a>
+                <a class="link" href="/">products</a>
             </li>
             <li class="list-item-inline">
-                <a class="link"  href="/">about</a>
+                <a class="link" href="/">about</a>
             </li>
         </ul>
 
@@ -127,19 +129,41 @@
     <hr>
 
     <h2>@section</h2>
-    <h3>@white section</h3>
+    <section class="section">
+        <div class="container container-center">
+            <h1>white section</h1>
 
-    <!-- Different part of a same topic. -->
-    <section>
-        <p>This will have white background.</p>
+            <!-- section : Different part of a same topic. -->
+
+            <!-- <p>This will have white background.</p> -->
+            <p>A full stack web developer is a person who can develop both client and server software.
+
+                In addition to mastering HTML and CSS, he/she also knows how to:
+                
+                Program a browser (like using JavaScript, jQuery, Angular, or Vue)
+                Program a server (like using PHP, ASP, Python, or Node)
+                Program a database (like using SQL, SQLite, or MongoDB)</p>
+
+
+        </div>
     </section>
 
-    <section>
-        <h3>off white section</h3>
-        <p>This will have gray background.</p>
+    <section class="section ow">
+        <div class="container container">
+        <h1>off white section</h1>
+        <!-- <p>This will have gray background.</p> -->
+        <p>A full stack web developer is a person who can develop both client and server software.
+
+            In addition to mastering HTML and CSS, he/she also knows how to:
+            
+            Program a browser (like using JavaScript, jQuery, Angular, or Vue)
+            Program a server (like using PHP, ASP, Python, or Node)
+            Program a database (like using SQL, SQLite, or MongoDB)</p>
+
+        </div>
     </section>
 
-<!--  end part of the page. -->
+    <!--  end part of the page. -->
     <hr> <!-- <hr> : The Thematic Break (Horizontal Rule) element -->
     <h2>@footer</h2>
     <footer>
@@ -151,7 +175,7 @@
         </ul>
     </footer>
 
-    
+
 
 
 
