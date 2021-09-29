@@ -71,7 +71,7 @@ declaration defines that this document is an HTML5 document-->
     <h2>@Links</h2>
 
     <a href="/">Primary Link</a>
-    <a> : anchor tag -->>
+    <a> : anchor tag -->
     <!-- <a href="/">Secondary Link</a>
 
     <hr>
@@ -103,7 +103,7 @@ declaration defines that this document is an HTML5 document-->
     </ol>
 
 
-    <hr> --> -->
+    <hr> --> 
 <!-- 
     <h2>@nav</h2>
 
@@ -160,7 +160,7 @@ declaration defines that this document is an HTML5 document-->
         </ul>
     </footer>
 
-     --> -->
+     --> 
 
 
 
