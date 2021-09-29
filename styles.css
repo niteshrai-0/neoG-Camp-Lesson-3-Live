@@ -120,6 +120,11 @@ hr {
 .hero {
     padding: 2rem;
     padding-top: 5rem;
+    text-align: center;
+}
+
+.hero h1{
+    text-align: center;
 }
 
 .hero .hero-img {
@@ -133,6 +138,7 @@ hr {
 .hero .hero-heading {
     padding-top: 1rem;
     color: var(--dark-gray);
+
 }
 
 .hero .hero-heading .heading-inverted {
