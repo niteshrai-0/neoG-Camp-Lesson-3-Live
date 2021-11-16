@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blogs | Nitesh_Rai</title>
+    <title>Certifications | Nitesh_Rai</title>
     <link href="styles.css" rel="stylesheet" />
 </head>
 
@@ -23,13 +23,16 @@
             <li class="list-item-inline">
                 <a class="link link-active" href="/blogs.html">Blogs</a>
             </li>
+            <li class="list-item-inline">
+                <a class="link link-active" href="/blogs.html">Certifications</a>
+            </li>
         </ul>
 
     </nav>
 
     <header class="hero">
-        <h1 class="hero-heading">Read My<span class="heading-inverted"> Blogs</span></h1>
-        <h2>These are some of my <a class="link link-primary" href="https://www.quora.com/profile/Nitesh-Rai-32/answers">Technical and Non-Technical Blogs.</a></h2>
+        <h1 class="hero-heading">View my journey of<span class="heading-inverted"> Certifications</span></h1>
+        <h2>These are some of my <a class="link link-primary" href="https://www.quora.com/profile/Nitesh-Rai-32/answers">Technical and Non-Technical Certifications.</a></h2>
 
     </header>
 
